@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="Resources.Listeners"/>
+	<listener class-name="Resources.ExtentReporterNG"/>
+</listeners>
+<parameter name="gecerli_mail" value="gittigidiyordeneme123@gmail.com"></parameter>
+
+<parameter name="yanlis_sifre" value="1234d"></parameter>
+
+	
+  <test name="Test2">
+    <classes>
+     
+      <class name="GittiGidiyorMain.GittiGidiyorFrameworkk.giriskontrol"/>
+    </classes>
+  </test> 
+   <test name="Test3">
+    <classes>
+      <class name="GittiGidiyorMain.GittiGidiyorFrameworkk.urun_test"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

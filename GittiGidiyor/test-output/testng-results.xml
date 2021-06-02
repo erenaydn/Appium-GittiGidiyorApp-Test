@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95404" started-at="2021-06-02T06:32:11Z" finished-at="2021-06-02T06:33:46Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="41564" started-at="2021-06-02T06:32:11Z" finished-at="2021-06-02T06:32:52Z">
+      <class name="GittiGidiyorMain.GittiGidiyorFrameworkk.giriskontrol">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:GittiGidiyorMain.GittiGidiyorFrameworkk.giriskontrol@578486a3]" name="killAllNodes" is-config="true" duration-ms="3029" started-at="2021-06-02T06:32:11Z" finished-at="2021-06-02T06:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:GittiGidiyorMain.GittiGidiyorFrameworkk.giriskontrol@578486a3]" name="BeforeMethod" is-config="true" duration-ms="23532" started-at="2021-06-02T06:32:14Z" finished-at="2021-06-02T06:32:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="eksik_sifre(java.lang.String, java.lang.String)[pri:0, instance:GittiGidiyorMain.GittiGidiyorFrameworkk.giriskontrol@578486a3]" name="eksik_sifre" duration-ms="14902" started-at="2021-06-02T06:32:37Z" finished-at="2021-06-02T06:32:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gittigidiyordeneme123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eksik_sifre -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:GittiGidiyorMain.GittiGidiyorFrameworkk.giriskontrol@578486a3]" name="AfterMethod" is-config="true" duration-ms="64" started-at="2021-06-02T06:32:52Z" finished-at="2021-06-02T06:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- GittiGidiyorMain.GittiGidiyorFrameworkk.giriskontrol -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="53816" started-at="2021-06-02T06:32:52Z" finished-at="2021-06-02T06:33:46Z">
+      <class name="GittiGidiyorMain.GittiGidiyorFrameworkk.urun_test">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:GittiGidiyorMain.GittiGidiyorFrameworkk.urun_test@694e1548]" name="killAllNodes" is-config="true" duration-ms="3013" started-at="2021-06-02T06:32:52Z" finished-at="2021-06-02T06:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:GittiGidiyorMain.GittiGidiyorFrameworkk.urun_test@694e1548]" name="BeforeMethod" is-config="true" duration-ms="21587" started-at="2021-06-02T06:32:55Z" finished-at="2021-06-02T06:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="uruntest()[pri:0, instance:GittiGidiyorMain.GittiGidiyorFrameworkk.urun_test@694e1548]" name="uruntest" duration-ms="29153" started-at="2021-06-02T06:33:17Z" finished-at="2021-06-02T06:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uruntest -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:GittiGidiyorMain.GittiGidiyorFrameworkk.urun_test@694e1548]" name="AfterMethod" is-config="true" duration-ms="57" started-at="2021-06-02T06:33:46Z" finished-at="2021-06-02T06:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- GittiGidiyorMain.GittiGidiyorFrameworkk.urun_test -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
